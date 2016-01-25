@@ -1,0 +1,112 @@
+<div id="playView">
+				<div id="msgPanel" class="ui-widget-content">
+					<h3 class="ui-widget-header">Communicator</h3>
+					<div id="msgTabs">
+						<ul>
+							<li>
+								<a href="#chatPane">Chat</a>
+							</li>
+							<li>
+								<a href="#pmPane">Private Message</a>
+							</li>
+						</ul>
+						<div id="chatPane">
+						</div>
+						<div id="pmPane">
+							<div id="pmAccordion">
+								<h4>Eric Collett</h4>
+								<div></div>
+								<h4>Ryan King</h4>
+								<div></div>
+							</div>
+						</div>
+					</div>
+					<div id="msgform">
+						<form action="php/post.php" method="post">
+							<textarea id="message" name="message" placeHolder="Enter Text Here."></textarea>
+							<button>Send</button>
+						</form>
+					</div>
+				</div>
+				<div id="mapPanel" class="ui-widget-content">
+					<h3 class="ui-widget-header">Maps</h3>
+					<div id="mapAccordion">
+						<h4>World Map</h4>
+						<div class="zoomViewport">
+							<div class="zoomContainer">
+								<div class="zoomTarget" data-targetsize="1.25" data-duration="600">
+								<svg width="100%" height="100%">
+									<defs>
+										<ellipse cx="5" cy="5" rx="10" ry="10" style="fill:purple" />
+										<pattern id="smallGrid" width="8" height="8" patternUnits="userSpaceOnUse">										
+											<path d="M 8 0 L 0 0 0 8" fill="none" stroke="gray" stroke-width="0.5"/>
+										</pattern>
+										<pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse">
+											<rect width="80" height="80" fill="url(#smallGrid)"/>
+											<path d="M 80 0 L 0 0 0 80" fill="none" stroke="gray" stroke-width="1"/>
+										</pattern>
+									</defs>
+									<rect width="100%" height="100%" fill="url(#grid)" />
+								</svg>
+								</div>
+							</div>
+						</div>
+						<h4>Local Map</h4>
+						<div></div>
+					</div>
+				</div>
+				<div id="charPanel" class="ui-widget-content">
+					<h3 class="ui-widget-header">Characters</h3>
+					<div id="charTabs">
+						<ul>
+							<li>
+								<a href="#sheetPane">Character Sheet</a>
+							</li>
+							<li>
+								<a href="#invPane">Inventory</a>
+							</li>
+						</ul>
+						<div id="sheetPane">
+							<button id="newButton" title="Create New" onClick="addNewCharTab()"></button>
+							<table>
+								<tr>
+									<th>#</th>
+									<th>Name</th>
+								</tr>
+								<tr>
+									<td>12</td>
+									<td>Str</td>
+								</tr>
+								<tr>
+									<td>12</td>
+									<td>Con</td>
+								</tr>
+								<tr>
+									<td>12</td>
+									<td>Dex</td>
+								</tr>
+								<tr>
+									<td>12</td>
+									<td>Int</td>
+								</tr>
+								<tr>
+									<td>12</td>
+									<td>Wis</td>
+								</tr>
+								<tr>
+									<td>12</td>
+									<td>Chr</td>
+								</tr>
+							</table>
+						</div>
+						<div id="invPane">
+							<div id="invAccordion">
+								<h4>Player Inventory</h4>
+								<div></div>
+								<h4>Party Inventory</h4>
+								<div></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>

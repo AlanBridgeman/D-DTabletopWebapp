@@ -1,0 +1,108 @@
+/*-------------------------------------------------------
+DESCRIPTION: The "main" style sheet for the application.
+
+AUTHOR(S): Alan Bridgeman
+VERSION: 1.0 (2015-02-02)
+-------------------------------------------------------*/
+
+#container
+{
+	float:left;
+	width:100%;
+	height:100%;
+}
+#playView
+{
+	float:left;
+	width:100%;
+	height:100%;
+}
+/*#msgPanel
+{
+	float: left;
+	width: 300px;
+	height: 500px;
+	padding: 1em;
+}
+#msgPanel h3
+{
+	text-align: center;
+	margin: 0 0 0.5em 0;
+}
+#msgTabs
+{
+	width:100%;
+	height:85%;
+}
+#pmAccordion h4
+{
+	text-align: center;
+	margin: 0;
+}
+#mapPanel
+{
+	float: left;
+	width: 300px;
+	height: 500px;
+	padding: 1em;
+}
+#mapPanel h3
+{
+	text-align: center;
+	margin: 0 0 0.5em 0;
+}
+#mapAccordion
+{
+	width:100%;
+	height:100%;
+}
+#mapAccordion h4
+{
+	text-align: center;
+	margin: 0;
+}
+#charPanel
+{
+	float:left;
+	width: 300px;
+	height: 500px;
+	padding: 1em;
+}
+#charPanel h3
+{
+	text-align: center;
+	margin: 0;
+}
+#newButton
+{
+	float:right;
+}
+#feedback { font-size: 1.4em; }
+#selectable .ui-selecting { background: #FECA40; }
+#selectable .ui-selected { background: #F39814; color: white; }
+#selectable { list-style-type: none; margin: 0; padding: 0; width: 60%; }
+#selectable li { margin: 3px; padding: 0.4em; font-size: 1.4em; height: 18px; }
+
+select
+{
+	width: 200px;
+}
+
+#sortable1, #sortable2
+{
+	border: 1px solid #eee;
+	width: 142px;
+	min-height: 20px;
+	list-style-type: none;
+	margin: 0;
+	padding: 5px 0 0 0;
+	float: left;
+	margin-right: 10px;
+}
+#sortable1 li, #sortable2 li
+{
+	margin: 0 5px 5px 5px;
+	padding: 5px;
+	font-size: 1.2em;
+	width: 120px;
+}*/
